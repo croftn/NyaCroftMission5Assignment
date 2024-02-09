@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+
+
+<br />
+<br />
+<br />
+<br />
+<div class="container">
+    <img src="~/img/newStarfish.jpg" alt="Your Image Description" class="contact-image">
+    <div class="contact-form">
+        <h1>@ViewData["Title"]</h1>
+        <p>Get an estimate!</p>
+        <form>
+            <!-- Form content -->
+            <div class="form-group">
+                <label for="hours">Enter the number of hours:</label>
+                <input type="number" id="hours" name="hours" min="0" step="any">
+            </div>
+            <div class="form-group">
+                <label>Hourly Rate:</label>
+                <input type="text" id="rate" value="$50.00" readonly>
+            </div>
+            <button type="button" onclick="calculateTotal()">Calculate Total</button>
+            <div class="form-group">
+                <label>Total Cost:</label>
+                <input type="text" id="total" readonly>
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+
+
+
+<script src="js/site.js"></script>
+
+
