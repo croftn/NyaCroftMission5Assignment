@@ -13,16 +13,19 @@ namespace NyaCroftMission5Assignment.Controllers
             _logger = logger;
         }
 
+        // Pull up index page
         public IActionResult Index()
         {
             return View();
         }
 
+        // Pull up calculator page
         public IActionResult Calculator()
         {
             return View();
         }
 
+        // Pull up contact page
         public IActionResult Contact()
         {
             return View();

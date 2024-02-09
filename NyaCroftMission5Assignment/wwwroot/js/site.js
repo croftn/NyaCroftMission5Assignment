@@ -3,6 +3,7 @@
 
 // Write your JavaScript code.
 
+// Function to calculate cost of my kayaking services
 function calculateTotal() {
     var hours = parseFloat($('#hours').val());
     var rate = parseFloat($('#rate').val().replace('$', '')); // Remove '$' symbol
